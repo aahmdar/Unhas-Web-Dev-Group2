@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+* {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.column {
+  display: flex;
+}
+img {
+    object-fit: cover;
+}
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-brand {
+  outline: none !important;
+   box-shadow: none;
+}
+.logo-text {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  color: white;
+  text-decoration: none;
+}
+.logo-text:hover {
+  color: rgb(255, 175, 175);
+
+}
+.logo-text:active {
+  color: rgb(255, 108, 108);
+
+}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+.right {
+  float: right;
+  padding: 0 10px 0 0;
+  
+}
+.personal-data-box {
+  margin-top: 5px;
+}
+.card-header {
+  background-color: white;
+  border-bottom: white;
+}
+.bg-yellow {
+  background-color: #FFDD54;
+}
